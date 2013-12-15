@@ -14,6 +14,7 @@ CLEANFILES = $(BUILT_SOURCES)
 
 libwayland_kms_la_SOURCES = \
 	wayland-kms.c \
+	wayland-kms-auth.c \
 	wayland-kms-protocol.c
 
 libwayland_kms_la_CFLAGS = \
