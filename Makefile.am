@@ -1,6 +1,7 @@
 lib_LTLIBRARIES = libwayland-kms.la
 
 AM_CFLAGS = \
+	-Wall \
 	$(WAYLAND_CFLAGS)
 
 AM_CPPFLAGS = \
