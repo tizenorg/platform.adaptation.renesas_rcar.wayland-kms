@@ -14,7 +14,13 @@ CLEANFILES = $(BUILT_SOURCES)
 
 libwayland_kms_la_SOURCES = \
 	wayland-kms.c \
+<<<<<<< HEAD
 	wayland-kms-protocol.c
+=======
+	wayland-kms-auth.c \
+	wayland-kms-protocol.c \
+	$(BUILT_SOURCES)
+>>>>>>> 499b49b... Forward DRM authentication to the upstream server.
 
 libwayland_kms_la_CFLAGS = \
 	@WAYLAND_SERVER_CFLAGS@ \
